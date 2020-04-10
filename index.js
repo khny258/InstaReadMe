@@ -10,6 +10,11 @@ inquirer.prompt([
     },
     {
         type: "input",
+        message: "What is your email?",
+        name: "email"
+    },
+    {
+        type: "input",
         message: "What is your project's title?",
         name: "project"
     },
@@ -80,7 +85,7 @@ inquirer.prompt([
 });
 
 
-function getData({username, project, description, licensetype, dependencies, tests, about, contributing},userImage) {
+function getData({username, email, project, description, licensetype, dependencies, tests, about, contributing},userImage) {
 
     console.log("project",project);
     return `
@@ -135,8 +140,10 @@ ${tests}
 ## Questions
 
 ![user profile image](${userImage})
+
+${email}
         
-If you have any questions about the repo, open an issue or contact [${username}](https://api.github.com/users/${username}) directly at null.
+If you have any questions about the repo, open an issue or contact [${username}](https://api.github.com/users/${username}) directly at ${email}.
         
 `;
 

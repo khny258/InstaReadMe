@@ -1,6 +1,8 @@
 
 # Good README Generator
 
+<img src="generator.gif">
+
 ## Description
 
 A command-line application that dynamically generates a README.md from a user's input.

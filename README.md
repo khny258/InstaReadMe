@@ -23,7 +23,7 @@ A command-line application that dynamically generates a README.md from a user's 
         
 ## Installation
         
-To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following commands:
         
 ```
 npm i

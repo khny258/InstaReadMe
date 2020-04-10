@@ -1,7 +1,5 @@
 
-# Good README Generator
-
-<img src="generator.gif">
+# InstaReadMe
 
 ## Description
 
@@ -39,7 +37,7 @@ Must install dependencies!
         
 ## Contributing
         
-You're free to add whatever you think is necessary.
+Feel free to add whatever you think is necessary.
 
 ## Tests
         
@@ -52,6 +50,8 @@ npm test
 ## Questions
 
 ![user profile image](https://avatars0.githubusercontent.com/u/55590940?v=4)
+
+khny258@gmail.com
         
-If you have any questions about the repo, open an issue or contact [khny258](https://api.github.com/users/khny258) directly at null.
+If you have any questions about the repo, open an issue or contact [khny258](https://api.github.com/users/khny258) directly at khny258@gmail.com.
         

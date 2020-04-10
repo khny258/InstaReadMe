@@ -27,6 +27,10 @@ To install necessary dependencies, run the following command:
         
 ```
 npm i
+npm install axios
+npm install file-system --save
+npm install inquirer
+
 ```
         
 ## Usage
